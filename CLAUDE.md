@@ -25,7 +25,8 @@ Full background and the reasoning behind every rule: `docs/handoff-2026-11-21.md
   1. Write `logs/<subject>/YYYY-MM-DD-<short-topic>.md`: date, actual minutes, what was covered, his explain-back answers or a summary of them, feedback given, status, and the exact next step.
   2. Update only this subject's row in `STATUS.md` and this lesson's row in `study-ledger.csv` (or add a `U-###` row if the lesson was unscheduled).
   3. `git pull --rebase`, then commit with the message `<subject>: <topic> (<status>)`, then `git push`.
-- GitHub is the record. A session's memory doesn't count until it's committed. Subject slugs: `product-engineering`, `aws`, `cybersecurity`, `robotics`.
+- GitHub is the record. A session's memory doesn't count until it's committed. Subject slugs: `product-engineering`, `aws`, `cybersecurity`, `robotics`, `leadership`.
+- **Leadership is different: it has no scheduled lessons and no time slot.** Its parent tracks practice that comes from real work and Product Engineering: decision memos, explaining trade-offs, running discussions, feedback, calm communication. Reflections go in `logs/leadership/`. Brief lesson sessions are fine when he asks, but only within existing time, never as added hours.
 - Run one lesson at a time, so only one session writes to this folder. Never edit another subject's rows.
 
 ## How to run a session
